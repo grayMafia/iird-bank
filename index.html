@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IIRD Bank</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="bankLogo" src="images/logo/iird-bank-logo-with-name-horizontally.png" alt="IIRD-BANK Logo">
+            <div id="headerIcons">
+                <a href="#" target="_blank" class="socialLink"><img src="images/icons/facebook.png" alt="Facebook Icon" class="socialIcon"></a>
+                <a href="#" target="_blank" class="socialLink"><img src="images/icons/linkedin.png" alt="Linkedin Icon" class="socialIcon"></a>
+                <a href="#" target="_blank" class="socialLink"><img src="images/icons/instagram.png" alt="Instragram Icon" class="socialIcon"></a></div>
+
+        </header>
+        <div id="loginContent">
+            <div id="bankWelcome">
+                <h1>Welcome to <span id="highlightedBankName">IIRD Bank</span> Online Banking</h1>
+            </div>
+            <div id="loginArea">
+                <h2>Login</h2>
+                <br>
+                <div id="inputArea">
+                    <input type="text" placeholder="Email" id="email" class="loginInfo">
+                    <br>
+                    <input type="password" placeholder="Password" id="password" class="loginInfo">
+                    <br>
+                    <button id="login" class="loginButton">Login</button>
+                    <br>
+                    <div id="loginError">
+                        <p id="loginErrorNote">Email or password is incorrect</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accountContent">
+            <div id="balanceArea">
+                <div class="balanceInfo">
+                    <p class="detailsName">Total Deposit</p>
+                    <p class="amount">$ <span class="digits" id="depositAmount">120</span></p>
+                </div>
+                <div class="balanceInfo">
+                    <p class="detailsName">Total Withdraw</p>
+                    <p class="amount">$ <span class="digits" id="withdrawAmount">40</span></p>
+                </div>
+                <div class="balanceInfo">
+                    <p class="detailsName">Balance</p>
+                    <p class="amount">$ <span class="digits" id="balanceAmount">1250</span></p>
+                </div>
+            </div>
+            <div id="depositWithdrawArea">
+                <div class="transactionInputArea">
+                    <p class="inputName">Diposit</p>
+                    <br>
+                    <input id="depositValue" type="text" placeholder="$ amount you want to diposit" class="inputAmount">
+                    <br> <br>
+                    <button id="depositBtn" class="amountSubmitBtn">Diposit</button>
+                    <div id="dipositeError">
+                        <br>
+                        <p id="dipositeErrorNote">Enter a valid amount</p>
+                    </div>
+                </div>
+                <div class="transactionInputArea">
+                    <p class="inputName">Withdraw</p>
+                    <br>
+                    <input id="withdrawValue" type="text" placeholder="$ amount you want to withdraw" class="inputAmount">
+                    <br> <br>
+                    <button id="withdrawBtn" class="amountSubmitBtn">Withdraw</button>
+                    <div id="insufficientWithdrawError">
+                        <br>
+                        <p id="insufficientWithdrawErrorNote">Insufficient Balance</p>
+                    </div>
+                    <div id="withdrawError">
+                        <br>
+                        <p id="withdrawErrorNote">Enter a valid amount</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

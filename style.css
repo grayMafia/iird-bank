@@ -1,0 +1,195 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #eeeff3;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+header img{
+    width: 250px;
+    margin-right: 25px;
+}
+
+.socialIcon{
+    width: 25px;
+}
+
+#loginContent{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#highlightedBankName{
+    color: rgb(8, 98, 125);
+}
+
+#loginArea{
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+}
+
+#inputArea{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInfo{
+    height: 30px;
+    padding: 10px;
+}
+
+.loginButton{
+    width: 60px;
+    padding: 8px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(8, 98, 125);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.loginButton:hover{
+    background-color: black;
+}
+
+#loginError{
+    display: none;
+}
+
+#loginErrorNote{
+    font-size: 14px;
+    color: red;
+}
+
+#accountContent{
+    margin-top: 50px;
+    display: none;
+}
+
+#balanceArea{
+    display: flex;
+    justify-content: center;
+}
+
+.balanceInfo{
+    /* height: 100px; */
+    width: 20%;
+    margin: 25px;
+    padding: 20px;
+    background-color: rgb(187, 202, 212);
+    border-radius: 10px;
+
+}
+
+.balanceInfo:hover{
+    background-color: rgb(8, 98, 125);
+    color: white;
+}
+
+.detailsName{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.amount{
+    font-size: 50px;
+}
+
+
+#depositWithdrawArea{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.transactionInputArea{
+    width: 30%;
+    margin: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
+    
+}
+
+.inputName{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.inputAmount{
+    height: 40px;
+    padding: 10px;
+}
+
+.amountSubmitBtn{
+    width: 100px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(8, 98, 125);
+    color: white;
+    border-radius: 5px;
+}
+
+.amountSubmitBtn:hover{
+    background-color: black;
+}
+
+#dipositeError{
+    display: none;
+}
+
+#dipositeErrorNote{
+    color: red;
+    font-size: 12px;
+}
+
+#insufficientWithdrawError{
+    display: none;
+}
+
+#insufficientWithdrawErrorNote{
+    color: red;
+    font-size: 12px;
+}
+
+#withdrawError{
+    display: none;
+}
+
+#withdrawErrorNote{
+    color: red;
+    font-size: 12px;
+}
