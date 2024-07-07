@@ -1,0 +1,80 @@
+/* Responsiveness for screen smaller than 481px */
+
+@media screen and (max-width: 480px){
+    
+    header{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    header img{
+        width: 200px;
+        margin-right: 5px;
+    }
+
+    .socialIcon{
+        width: 20px;
+    }
+
+    #loginContent{
+        width: 96%;
+        margin: 50px auto 0 auto;
+    }
+
+    #bankWelcome h1{
+        padding: 0 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #loginArea{
+        width: 80%;
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+
+    #accountContent{
+        margin-top: 30px;
+    }
+
+    #balanceArea{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .balanceInfo{
+        width: 70%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .detailsName{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .amount{
+        font-size: 24px;
+    }
+
+    #depositWithdrawArea{
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .transactionInputArea{
+        width: 70%;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .inputName{
+        font-size: 22px;
+    }
+
+}
