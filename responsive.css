@@ -18,7 +18,7 @@
 
     #loginContent{
         width: 96%;
-        margin: 50px auto 0 auto;
+        margin: 100px auto 0 auto;
     }
 
     #bankWelcome h1{
@@ -30,6 +30,7 @@
     #loginArea{
         width: 80%;
         padding: 20px;
+        margin-top: 120px;
     }
 
     h2{
@@ -38,7 +39,7 @@
 
 
     #accountContent{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     #balanceArea{
@@ -62,7 +63,7 @@
     }
 
     #depositWithdrawArea{
-        margin-top: 25px;
+        margin-top: 40px;
         flex-direction: column;
         align-items: center;
     }
@@ -75,6 +76,14 @@
 
     .inputName{
         font-size: 22px;
+    }
+
+    /* footer */
+
+    #footerArea{
+        text-align: center;
+        margin: 30px auto 20px auto;
+        padding: 25px;
     }
 
 }
