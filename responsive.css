@@ -18,7 +18,7 @@
 
     #loginContent{
         width: 96%;
-        margin: 100px auto 0 auto;
+        margin: 100px auto;
     }
 
     #bankWelcome h1{
@@ -81,9 +81,7 @@
     /* footer */
 
     #footerArea{
-        text-align: center;
         margin: 30px auto 20px auto;
-        padding: 25px;
     }
 
 }
